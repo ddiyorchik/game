@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color: magenta;
+    width: 100%;
+    height: 97vh;
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+}
+input{
+    padding: 15px;
+    background-color: #6420AA;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.button{
+    padding: 15px;
+    background-color: #6420AA;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.result{
+    width: 100%;
+    text-align: center;
+    color: #6420AA;
+    background-color: #FF7ED4;
+    height: 200px;
+    align-items: center;
+    margin: auto;
+    vertical-align: middle;
+}
+.result-h1{
+    padding-top: 60px;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 50px;
+    }
+    input,
+    .button {
+        font-size: 12px;
+    }
+    .result-h1 {
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 50px;
+        max-width: 100%;
+    }
+    input,
+    .button {
+        max-width: 75%;
+        font-size: 12px;
+    }
+    .result{
+        max-width: 100%;
+    }
+    .result-h1 {
+
+        padding-top: 40px;
+    }
+}
